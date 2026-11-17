@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.kolatra.gnome.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mixins.gnome.refmap.json",
+  "client": [
+    "EntityRendererMixin",
+    "RenderPlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
